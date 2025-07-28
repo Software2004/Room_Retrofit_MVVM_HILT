@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.RoomRetrofitMVVM" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">@color/brand</item>
+        <item name="android:textColor">@color/textColorAlt</item>
+        <item name="backgroundColor">@color/bgColorAlt</item>
+        <item name="android:windowBackground">?backgroundColor</item>
+
+        <item name="colorOnBackground">@color/bgColor</item>
+        <item name="cardBackgroundColor">@color/cardBackAlt</item>
+
+        <item name="colorControlHighlight">@color/highlight</item>
+
+
+<!--        <item name="android:autofilledHighlight">#223675F0</item>-->
+
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">?backgroundColor</item>
+        <item name="android:navigationBarColor">@color/bgColorAlt</item>
+    </style>
+    <style name="Theme.MVVMExample.QuotesActivty" parent="Base.Theme.RoomRetrofitMVVM">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:navigationBarColor">@color/btm</item>
+
+    </style>
+
+</resources>

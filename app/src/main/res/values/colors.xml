@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="textColor">#222222</color>
+    <color name="textColorAlt">#ddd</color>
+    <color name="bgColor">#fff</color>
+    <color name="bgColorAlt">#222</color>
+    <color name="cardBack">#f5f5f5</color>
+    <color name="cardBackAlt">#131214</color>
+    <color name="brand">#00974E</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_click">#999</color>
+
+    <color name="btm">#242353</color>
+
+    <color name="highlight">#223675F0</color>
+
+
+</resources>

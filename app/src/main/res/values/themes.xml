@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.RoomRetrofitMVVM" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/brand</item>
+         <item name="android:textColor">@color/textColor</item>
+        <item name="backgroundColor">@color/bgColor</item>
+        <item name="android:windowBackground">?backgroundColor</item>
+        <item name="colorOnBackground">@color/bgColorAlt</item>
+        <item name="cardBackgroundColor">@color/cardBack</item>
+
+        <item name="colorControlHighlight">@color/highlight</item>
+
+<!--        <item name="android:autofilledHighlight">#223675F0</item>-->
+
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">?backgroundColor</item>
+        <item name="android:navigationBarColor">@color/bgColor</item>
+    </style>
+
+    <style name="Theme.RoomRetrofitMVVM" parent="Base.Theme.RoomRetrofitMVVM" />
+    <style name="Theme.RoomRetrofitMVVM.QuotesActivty" parent="Base.Theme.RoomRetrofitMVVM">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:navigationBarColor">@color/btm</item>
+    </style>
+
+</resources>
