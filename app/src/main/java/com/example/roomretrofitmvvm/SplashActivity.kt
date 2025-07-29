@@ -22,11 +22,12 @@ class SplashActivity : AppCompatActivity() {
             img.animate().alpha(1f).translationY(0F).setDuration(1000).start()
         }
 
-        viewModel.startTimer(10000, 1000)
+        viewModel.startTimer(5000, 1000)
+        binding.vm = viewModel
 
-        viewModel.timeLeft.observe(this) { timeLeft ->
+        /*viewModel.timeLeft.observe(this) { timeLeft ->
             binding.timerTextView.text = timeLeft
-        }
+        }*/
         viewModel.timerFinished.observe(this) { timerFinished ->
             if (timerFinished) {
                 startActivity(Intent(this, MainActivity::class.java))

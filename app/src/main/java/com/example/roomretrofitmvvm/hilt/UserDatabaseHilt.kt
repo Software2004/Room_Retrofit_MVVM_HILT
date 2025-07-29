@@ -1,8 +1,9 @@
-package com.example.roomretrofitmvvm.room
+package com.example.roomretrofitmvvm.hilt
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
 import com.example.roomretrofitmvvm.models.User
+import com.example.roomretrofitmvvm.room.UserDao
 
 @Database(
     entities = [User::class],
